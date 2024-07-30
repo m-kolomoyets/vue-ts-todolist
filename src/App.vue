@@ -1,5 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TodoList from './modules/TodoList'
+</script>
 
 <template>
-  <main>Hello world</main>
+  <main>
+    <TodoList />
+  </main>
 </template>
